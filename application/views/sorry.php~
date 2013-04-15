@@ -1,0 +1,6 @@
+<?php defined('BASEPATH') or exit; ?>
+
+<div class="alert box" style="text-align: center;">
+<h3>Sorry try again!</h3>
+</div>
+    

@@ -1,0 +1,9 @@
+<?php defined('BASEPATH') or exit; ?>
+
+<h1>PUT HEADER INFO HERE</h1>
+
+<?php if(isset($view_filename)) : ?>
+    <?php $this->load->view($view_filename, $vars); ?>
+<?php endif; ?>
+
+<h1>PUT FOOTER INFO HERE</h1>

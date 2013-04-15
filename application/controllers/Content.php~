@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @ignore
+ */
+defined('BASEPATH') or exit;
+
+/**
+ *
+ */
+class Content extends AppController
+{
+    /**
+     * 
+     */
+    public function index()
+    {
+        $this->load->view('content_index');
+    }
+    
+    /**
+     *
+     */
+    public function about()
+    {
+        $this->load->view('content_about');
+    }
+}

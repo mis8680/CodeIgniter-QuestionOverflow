@@ -24,7 +24,6 @@ class User extends AppController
         //view a specific user's profile
         $this->load->view('header');
         $this->render_view('user/view', array());
-        
         $this->load->view('footer');
     }
     
@@ -43,9 +42,7 @@ class User extends AppController
     {
         
         $this->load->view('header');     
-        $this->load->library('form_validation');
-        
-        
+        $this->load->library('form_validation');     
         $this->form_validation->set_rules('user_name', 'Name', 'trim|required|xxs_clean');
         $this->form_validation->set_rules('user_email', 'Email Address', 'trim|required|valid_email');
         $this->form_validation->set_rules('user_password', 'Password', 'trim|required|md5');
